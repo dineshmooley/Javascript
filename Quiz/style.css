@@ -1,0 +1,71 @@
+.root    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container   {
+    width: 40%;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.qno, .ques, .opts  {
+    padding-left: 40px;
+}
+
+.qno    {
+    margin-top: 10px;
+    font-size: smaller;
+    color: red;
+}
+
+.ques   {
+    margin-top: 15px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.opts   {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opt    {
+    color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.opt:hover  {
+    background-color: blueviolet;
+    color: white;
+}
+
+.clicked    {
+    background-color: blueviolet;
+}
+
+.btn    {
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+    margin: 10px;
+    width: 400px;
+    height: 40px;
+}
+
+.selected   {
+    background-color: blueviolet;
+    color: white;
+}
+
+ 
